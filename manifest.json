@@ -95,6 +95,181 @@
       ],
       "ast": [
         "aggregate/ast/52f9d4983e68b16d1d77f8920df087ef8f8d6ba0/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/52f9d4983e68b16d1d77f8920df087ef8f8d6ba0.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "divan-macros",
+          "ecosystem": "CARGO",
+          "version": "=0.1.21",
+          "githubOrg": "nvzqz",
+          "githubRepo": "divan",
+          "githubUrl": "https://github.com/nvzqz/divan",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "cfg-if",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "rust-lang",
+          "githubRepo": "cfg-if",
+          "githubUrl": "https://github.com/rust-lang/cfg-if",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "clap",
+          "ecosystem": "CARGO",
+          "version": "4",
+          "githubOrg": "clap-rs",
+          "githubRepo": "clap",
+          "githubUrl": "https://github.com/clap-rs/clap",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "condtype",
+          "ecosystem": "CARGO",
+          "version": "1.3",
+          "githubOrg": "nvzqz",
+          "githubRepo": "condtype",
+          "githubUrl": "https://github.com/nvzqz/condtype",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "regex",
+          "ecosystem": "CARGO",
+          "version": "0.1",
+          "githubOrg": "rust-lang",
+          "githubRepo": "regex",
+          "githubUrl": "https://github.com/rust-lang/regex",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "mimalloc",
+          "ecosystem": "CARGO",
+          "version": "0.1",
+          "githubOrg": "purpleprotocol",
+          "githubRepo": "mimalloc_rust",
+          "githubUrl": "https://github.com/purpleprotocol/mimalloc_rust",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "clap_builder",
+          "ecosystem": "CARGO",
+          "version": "4.6.7",
+          "githubOrg": "clap-rs",
+          "githubRepo": "clap",
+          "githubCommit": "13f2db5072d600c11d8d6298e4e9ba53ffc6c1ab",
+          "githubTag": "v4.6.7",
+          "githubUrl": "https://github.com/clap-rs/clap",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/clap_builder-4.6.7/src/parser/matches/arg_matches.rs"
+        },
+        {
+          "packageName": "regex-lite",
+          "ecosystem": "CARGO",
+          "version": "0.1.9",
+          "githubOrg": "rust-lang",
+          "githubRepo": "regex",
+          "githubUrl": "https://github.com/rust-lang/regex",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/regex-lite-0.1.9/src/string.rs"
+        },
+        {
+          "packageName": "quote",
+          "ecosystem": "CARGO",
+          "version": "1.0.47",
+          "githubOrg": "dtolnay",
+          "githubRepo": "quote",
+          "githubCommit": "723dcb47d3f0ddc896e17287c8a8d3f2ea2317d5",
+          "githubTag": "1.0.47",
+          "githubUrl": "https://github.com/dtolnay/quote",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quote-1.0.47/src/lib.rs"
+        },
+        {
+          "packageName": "proc-macro2",
+          "ecosystem": "CARGO",
+          "version": "1.0.107",
+          "githubOrg": "dtolnay",
+          "githubRepo": "proc-macro2",
+          "githubCommit": "ed8a5497669cd63db33bf24646f261b012bbbc4a",
+          "githubTag": "1.0.107",
+          "githubUrl": "https://github.com/dtolnay/proc-macro2",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.107/src/lib.rs"
+        },
+        {
+          "packageName": "syn",
+          "ecosystem": "CARGO",
+          "version": "2.0.119",
+          "githubOrg": "dtolnay",
+          "githubRepo": "syn",
+          "githubCommit": "3295f9e9841785ac88a5e558c884854d5fb7d67f",
+          "githubTag": "2.0.119",
+          "githubUrl": "https://github.com/dtolnay/syn",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/syn-2.0.119/src/punctuated.rs"
+        },
+        {
+          "packageName": "libc",
+          "ecosystem": "CARGO",
+          "version": "0.2.191",
+          "githubOrg": "rust-lang",
+          "githubRepo": "libc",
+          "githubCommit": "ccc2ff4aaab962f7fde7b8edda7379c045b1ca12",
+          "githubTag": "0.2.191",
+          "githubUrl": "https://github.com/rust-lang/libc",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.191/src/unix/mod.rs"
+        },
+        {
+          "packageName": "fastrand",
+          "ecosystem": "CARGO",
+          "version": "2.5.0",
+          "githubOrg": "smol-rs",
+          "githubRepo": "fastrand",
+          "githubCommit": "7a1cc2c69ebde6cb3442809213db3fe19a2cb0ba",
+          "githubTag": "v2.5.0",
+          "githubUrl": "https://github.com/smol-rs/fastrand",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fastrand-2.5.0/src/global_rng.rs"
+        },
+        {
+          "packageName": "ordsearch",
+          "ecosystem": "CARGO",
+          "version": "0.2.7",
+          "githubOrg": "jonhoo",
+          "githubRepo": "ordsearch",
+          "githubCommit": "adf72d1c648aa91f6649ed4a3dc71568c78a036c",
+          "githubTag": "v0.2.7",
+          "githubUrl": "https://github.com/jonhoo/ordsearch.git",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ordsearch-0.2.7/src/lib.rs"
+        },
+        {
+          "packageName": "wyhash",
+          "ecosystem": "CARGO",
+          "version": "0.5.0",
+          "githubOrg": "eldruin",
+          "githubRepo": "wyhash-rs",
+          "githubCommit": "0052134664c9259a590f3fa6c3a62bb1b5bf737d",
+          "githubTag": "v0.5.0",
+          "githubUrl": "https://github.com/eldruin/wyhash-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wyhash-0.5.0/src/traits.rs"
+        },
+        {
+          "packageName": "rayon",
+          "ecosystem": "CARGO",
+          "version": "1.12.0",
+          "githubOrg": "rayon-rs",
+          "githubRepo": "rayon",
+          "githubCommit": "c9ced185ae3508246a9eb70c8407a1199bb1b77f",
+          "githubTag": "v1.12.0",
+          "githubUrl": "https://github.com/rayon-rs/rayon",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rayon-1.12.0/src/slice/mod.rs"
+        }
       ]
     }
   ],
