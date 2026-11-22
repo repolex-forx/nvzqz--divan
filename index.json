@@ -1,0 +1,11 @@
+{
+  "org": "nvzqz",
+  "repo": "divan",
+  "versions": [
+    {
+      "commit": "52f9d4983e68b16d1d77f8920df087ef8f8d6ba0",
+      "tag": "v0.1.21",
+      "parsed_at": "2026-11-22T06:39:04.564369+00:00"
+    }
+  ]
+}
